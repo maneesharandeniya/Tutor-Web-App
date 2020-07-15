@@ -15,14 +15,14 @@ body{
 
 .login-box{
     width: 33.33%;
-    height: 450px;
+    height: 70%;
     background: rgba(0, 0, 0, 0.4);
     color: #fff;
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
-   box-sizing: border-box; 
+    box-sizing: border-box; 
     padding: 50px 30px;
 }
 .avatar{
