@@ -17,7 +17,7 @@
 				 
 				
 				 
-				ul > div{
+				ul div{
 		          display: table;
                   margin: 0 auto;
 				  list-style-type: none;
