@@ -263,7 +263,7 @@ body {
   box-sizing: border-box;
   font-size: 14px;
   font-weight: 700;
-  color: rgb(0, 0, 0)46, 52, 54);
+  color: rgb(46, 52, 54);
   text-transform: uppercase;
   border: none;
   background-image: -moz-linear-gradient(to left, rgb(59, 95, 246), #9face6);
@@ -271,6 +271,22 @@ body {
   background-image: -o-linear-gradient(to left, rgb(59, 95, 246), #9face6);
   background-image: -webkit-linear-gradient(to left, rgb(59, 95, 246), #9face6);
   background-image: linear-gradient(to left, rgb(59, 95, 246), #9face6); }
+  
+.form-submit:hover {
+  width: 100%;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  padding: 17px 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  border: none;
+   background: #1c8adb; }
 
 input[type=checkbox]:not(old) {
   width: 2em;
