@@ -1,0 +1,130 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, grey, #25f7c4);
+  background: linear-gradient(to right, grey, #90a7c4);
+  font-family: 'Roboto', sans-serif;
+}body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+  .login-box{
+    width: 33.33%;
+    height: 380px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;   
+    transform: translate(-50%,-50%);
+    box-sizing: border-box; 
+    padding: 50px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color:black;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"],input[type="number"],input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}
+h2
+{
+	color:black;
+}
+@media (max-width: 990px){
+	.login-box{
+    width: 50%;
+    height: 360px;
+    
+}
+ h1{
+    font-size: 20px;
+    
+} 
+.login-box input[type="text"], input[type="password"],input[type="number"],input[type="email"]
+{
+    height: 35px;
+   
+}
+.login-box input[type="submit"]
+{   
+    height: 35px;   
+}
+}
+@media (max-width: 500px){
+	.login-box{
+    width: 80%;
+    height: 330px;
+    
+}
+ h1{
+    font-size: 18px;
+    
+} 
+.login-box input[type="text"], input[type="password"],input[type="number"],input[type="email"]
+{
+    height: 25px;
+   
+}
+.login-box input[type="submit"]
+{   
+    height: 25px;   
+}
+}
